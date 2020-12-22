@@ -18,7 +18,7 @@ body {
   width: 10rem;
 }
 .section {
-  padding: 2rem 0rem;
+  padding: 5rem 0rem;
 }
 .section-main {
   margin-top: 4.5rem;
@@ -84,5 +84,29 @@ body {
   }
   .img_3_2 {
     width: 30%;
+  }
+}
+
+.section-4 {
+  background: linear-gradient(90deg, #ffffff 70%, #0000ff 70%);
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    span {
+      color: #0000ff;
+    }
+  }
+  h2 {
+    margin: 2rem 0rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .img_4 {
+    width: 27rem;
+    height: 27rem;
+    object-fit: cover;
+    border-radius: 50%;
   }
 }

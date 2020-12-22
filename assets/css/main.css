@@ -22,7 +22,7 @@ body {
 }
 
 .section {
-  padding: 2rem 0rem;
+  padding: 5rem 0rem;
 }
 
 .section-main {
@@ -104,5 +104,36 @@ body {
 
 .section-3 .img_3_2 {
   width: 30%;
+}
+
+.section-4 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(70%, #ffffff), color-stop(70%, #0000ff));
+  background: linear-gradient(90deg, #ffffff 70%, #0000ff 70%);
+}
+
+.section-4 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.section-4 h1 span {
+  color: #0000ff;
+}
+
+.section-4 h2 {
+  margin: 2rem 0rem;
+}
+
+.section-4 p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.section-4 .img_4 {
+  width: 27rem;
+  height: 27rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
