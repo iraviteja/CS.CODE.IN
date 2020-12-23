@@ -177,4 +177,154 @@ body {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
+
+.section-6 {
+  padding-left: 8rem;
+}
+
+.section-6 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.section-6 h1 span {
+  color: #0000ff;
+}
+
+.section-6 h2 {
+  margin: 2rem 0rem;
+  font-size: 2.3rem;
+}
+
+.section-6 p {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.section-7 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+.section-7 h1 span {
+  color: #0000ff;
+}
+
+.section-7 input {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.section-7 input:active, .section-7 input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.section-7 button {
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.section-7 .img_7 {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+}
+
+.section-8 h1 {
+  font-size: 3.7rem;
+  color: #0000ff;
+  font-weight: bold;
+}
+
+.section-8 p {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.section-8 .img_8 {
+  width: 80%;
+  margin: auto;
+}
+
+.section-9 {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.section-9 h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.section-9 p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 0rem;
+}
+
+.section-9 button {
+  display: block;
+  margin-left: auto;
+  margin-right: 10rem;
+  background-color: #f7b944;
+  padding: 0.8rem 2.5rem;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-10 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #0000ff), color-stop(30%, #ffffff));
+  background: linear-gradient(90deg, #0000ff 30%, #ffffff 30%);
+}
+
+.section-10 h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.section-10 h1 span {
+  color: #0000ff;
+}
+
+.section-10 h2 {
+  margin: 2rem 0rem;
+}
+
+.section-10 p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.section-10 .img_4 {
+  width: 30rem;
+  height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-10 button {
+  padding: 0.7rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+.section-10 .text {
+  padding-right: 6rem;
+}
 /*# sourceMappingURL=main.css.map */
