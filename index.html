@@ -32,10 +32,33 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3 align-items-center">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-dark ms-2" aria-current="page" href="#"
                 >Program</a
               >
+            </li> -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark ms-2"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Program
+              </a>
+              <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Experience</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li> -->
+                <li>
+                  <a class="dropdown-item" href="#">Field Work</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">FAQ</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark ms-2" href="#">Curriculum</a>
@@ -50,31 +73,11 @@
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link ms-2"
-                ><button type="button" class="btn btn-primary">
-                  Login | Sign Up
+                ><button type="button" class="btn btn-primary apply-btn">
+                  Apply Now
                 </button></a
               >
             </li>
-            <!-- <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -84,11 +87,15 @@
     <section class="section section-main">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6">
-            <h1 class="main-section-text">
+          <div class="col-lg-6 main-section-text">
+            <h1>
               The online coding school that invests in
               <span class="bright-red large-suisse">you.</span>
             </h1>
+            <p>
+              Train remotely to become a web developer or a data scientist and
+              pay no tuition until you’re hired.
+            </p>
           </div>
           <div class="col-lg-6 text-center">
             <img

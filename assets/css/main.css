@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  width: 10rem;
+  width: 12rem;
 }
 
 .section {
@@ -30,12 +30,20 @@ body {
 }
 
 .main-section-text {
-  font-size: 4.5rem;
   padding: 0rem 4rem;
+}
+
+.main-section-text h1 {
+  font-size: 4.5rem;
   font-weight: 600;
   letter-spacing: -0.05rem;
   font-family: 'Roboto', sans-serif;
   color: #1b212c;
+}
+
+.apply-btn {
+  background-color: #0000ff;
+  border-color: #0000ff;
 }
 
 .main-section-image {
