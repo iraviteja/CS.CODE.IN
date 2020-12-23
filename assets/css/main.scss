@@ -33,11 +33,22 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #1b212c;
   }
+  p {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+  }
+  button {
+    // background-color: #0000ff;
+    // border-color: #0000ff;
+    padding: 0.7rem 3rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
 }
-.apply-btn {
-  background-color: #0000ff;
-  border-color: #0000ff;
-}
+// .apply-btn {
+//   background-color: #0000ff;
+//   border-color: #0000ff;
+// }
 .main-section-image {
   width: 80%;
 }
@@ -115,5 +126,29 @@ body {
     height: 27rem;
     object-fit: cover;
     border-radius: 50%;
+  }
+}
+
+.section-5 {
+  .img_5 {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  .right-text {
+    padding: 0rem 5rem;
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      span {
+        color: #0000ff;
+      }
+    }
+    h2 {
+      margin: 2rem 0rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
   }
 }
